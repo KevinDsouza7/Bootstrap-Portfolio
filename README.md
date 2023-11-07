@@ -1,7 +1,5 @@
-# Bootstrap-Portfolio
-To create a README file for your HTML code, you can follow this structure:
 
-# Victor Kevin Dsouza's Portfolio
+# Victor Kevin Dsouza's Portfolio Bootstrap
 
 ## Table of Contents
 - [Introduction](#introduction)
