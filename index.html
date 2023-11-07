@@ -18,9 +18,11 @@
  
   <!-- Custom styles for this template -->
    <link href="css/style.css" rel="stylesheet">
-
+   <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
    <title>Victor Kevin Dsouza's Portfolio</title>
-</head>
+
+  </head>
+
 
 <body>
 
@@ -32,10 +34,11 @@
           <img src="images/logo.png" class="logo">
           <ul>
             <li><a href="#">Home</a> </li>
-            <li><a href="#">About</a> </li>
-            <li><a href="#">Work</a> </li>
-            <li><a href="#">Skills</a> </li>
-            <li><a href="#">Contact</a> </li>
+            <li class="nav-item">
+              <a class="navlink" href="#about">About Me</a> </li>
+            <li class="nav-item"><a class="navlink" href="#work">Work</a> </li>
+            <li class="nav-item"><a class="navlink" href="#skills">Skills</a> </li>
+            <li class="nav-item"><a class="navlink" href="#contact">Contact</a> </li>
           </ul>
         </nav> 
         <div class="header-text">
@@ -63,8 +66,96 @@
         </div>
   </div>
 </div>
- 
+ <!----About Me End ---->
 
+<!-----Work-------->
+<div id="work" >
+  <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+    <h1> My Work Expierence</h1>
+    <div class="card-row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6"></div>
+            <h5 class="card-title">My Portfolio</h5>
+            <img class="card-img-top" src="./images/logo.png" alt="Card image cap">
+            <p class="card-text">Check it out!!</p>
+            <a href="https://github.com/KevinDsouza7/Bootstrap-Portfolio" class="btn btn-primary">Source Code</a>
+          
+        </div>
+      </div>
+      <br>
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <div class="card-row">
+            <h5 class="card-title">Next Project</h5>
+            <img class="card-img-top" src="./images/logo.png" alt="logo">
+            <p class="card-text">TBD</p>
+            <a href="#" class="btn btn-primary">Unavailable</a>
+          </div>
+        </div>
+      </div>
      
+    </div>
+  </div>
+</div>
+
+<!-----Work END-------->
+
+<!-----Skills-------->
+<div id="skills">
+  <div class="container"> 
+    <h1>Skills Acquired</h1>
+    <ul>
+      <li class="list-group-item list-group-item-success">HTML- HyperText Markup Language is the code that is used to structure a web page and its content.</li><br>
+      <li class="list-group-item list-group-item-success">CSS - Cascading Style Sheets. CSS is a computer language for laying out and structuring web pages</li><br>
+        <li class="list-group-item list-group-item-primary">JavaScript - an object-oriented computer programming language commonly used to create interactive effects within web browsers.</li>  
+        <br>      
+      </ul>
+  </div>
+</div>
+
+<!-----Skills End-------->
+<!-----Contact-------->
+<div id="contact">
+  <div class="container">
+
+   
+
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title"background-color: red  >Contact Me</h1>
+        <p> victorkevindsouza7@gmail.com</p>
+        <p>077-00-0000</p>
+
+          
+        <form action="">
+      <label class="name">Name:
+       <input type ="text" id="name">
+   </label><br>
+   <label class="email">Email:
+       <input type ="email" id="email">
+   </label><br>
+   <label message="message">Message:
+       <textarea name="" id="message"></textarea>
+   </label><br>
+   </form>
+
+        <div class="social-icons">
+          <a href="fb.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="x.com"><i class="fa-brands fa-twitter"></i></a>
+          <a href="instagram.com"><i class="fa-brands fa-instagram"></i></i></a>
+          
+        </div>
+?
+      </div>
+    </div>
+  </div>
+</div>
+<!---------Footer------->
+<footer style="background-color: rgb(95, 0, 0); color: aliceblue;font-size: 20px;text-align: center;">
+  <p>Copyright 2023 ©</p>
+  
+</footer>
+
 </body>
 </html>

@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: black;
+    background-image: url(../images/bg.jpg);
 }
 #header{
     width: 100%;
@@ -76,7 +76,7 @@ nav ul li a:hover::after{
     color: aliceblue;
 }
 .row{ 
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -89,4 +89,76 @@ nav ul li a:hover::after{
     text-align: left;
     margin: 20px 0 40px;
 }
+/*----------------Work------------*/
+#work h1{
+    padding: 50px 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.cardContainer col-lg-3 col-md-3 col-sm-6 {
 
+    display:inline-block;
+       width: 100%; 
+    padding: 20px;
+    justify-content: space-between;
+    height: 500px;
+}
+#work  card-row{
+  
+    width: 100%;
+    height: 500px;
+}
+
+/*--------Skills----*/
+#skills h1{
+    padding:50px 20px;
+    color:aliceblue ;
+    text-align: center;
+}
+
+
+/*--------contact----*/
+#contact{
+    color: aliceblue;
+}
+#contact h1{
+    VS
+    padding:50px 20px;
+    color:aliceblue ;
+    X
+}
+#contact .h1 p{
+    padding:50px 20px;
+    color:aliceblue ;
+    text-align: center;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 50%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+ .contact-left p i{
+    colour: red;
+    margin-right: 15px;
+    font-size: 25px;
+ }
+ .social-icons{
+    margin-top: 30px;
+ }
+ .social-icons a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 5px;
+color: red;
+display :flex;
+ }
+ /**-------Footer------**/
+  .p{
+    text-align: center;
+    color:aliceblue ;
+ }
