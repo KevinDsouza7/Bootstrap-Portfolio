@@ -91,9 +91,6 @@ The "Work" section of the website showcases Victor's work experience using Boots
 </div>
 ```
 
-**Screenshot:**
-![Alt text](./images/bootstrap%20cards.png"Optional Title")
-
 In this code, Bootstrap cards are used to present work experience. Each card contains the following elements:
 
 - `card-title`: Displays the project title, e.g., "My Portfolio."
